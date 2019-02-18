@@ -12,8 +12,8 @@ def summon_captain_planet(planets) code an argument here
   # Your code here
   
   planets.collect do |planet|
-    .capitalize!
-    call << "!"
+    planet.capitalize!
+    planet << "!"
   end
 end
 
